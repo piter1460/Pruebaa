@@ -1,0 +1,35 @@
+{
+  "name": "regalo",
+  "plural": "regalos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "precio": {
+      "type": "number",
+      "required": true
+    },
+    "disponible": {
+      "type": "boolean",
+      "required": true
+    },
+    "marca": {
+      "type": "string",
+      "required": true
+    },
+    "categorias": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
